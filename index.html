@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Formlar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="https://formsubmit.co/furkansyzo@gmail.com" method="post">
+        <div class="box">
+            <div>
+                <label for="first_name">İsim</label>
+                <br>
+                <input type="text" name="first-name" id="first_name">
+            </div>
+            <br/>
+            <div>
+                <label for="last_name">Soy isim</label>
+                <br>
+                <input type="text" name="last-name" id="last_name">
+            </div>
+            <br/>
+            <div>
+                <label for="e-mail">Email</label>
+                <br>
+                <input type="email" name="e-mail" id="e-mail">
+            </div>
+            <br/>
+            <div>
+                <label for="age">Yaşınız</label>
+                <br>
+                <input type="number" name="age" id="age" min="15" max="70">
+            </div>
+            <br>
+            <div>
+                <label for="message">Mesajınız</label>
+                <br>
+                <textarea id="message" name="story" rows="4"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="range">Sitemizi Ne Kadar Beğendiniz?</label>
+                <br>
+                <input type="range" name="website-rating" id="range">
+            </div>
+            <br>
+            <div>
+                <button type="reset">Temizle</button>
+                <button type="submit">Gönder</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
